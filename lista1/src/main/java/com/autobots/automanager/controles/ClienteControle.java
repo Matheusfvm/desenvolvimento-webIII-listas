@@ -18,7 +18,7 @@ import com.autobots.automanager.modelo.ClienteSelecionador;
 import com.autobots.automanager.repositorios.ClienteRepositorio;
 
 @RestController
-@RequestMapping("/cliente")
+@RequestMapping()
 public class ClienteControle {
 	@Autowired
 	private ClienteRepositorio repositorio;
